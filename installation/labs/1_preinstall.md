@@ -74,7 +74,10 @@ enabled=0
 Change MySQL 5.5 Community Server
 enabled=1
 
+Install mysql client:
 yum install mysql
+
+Install mysql server:
 yum install mysql-community-server
 
 Download and copy the JDBC connector to all nodes:
